@@ -1,0 +1,72 @@
+SELECT empresa.cod_produto, empresa.vl_custo_fob
+FROM cd_produto_empresa AS empresa
+LEFT JOIN cd_produto AS produto
+ON produto.cod_produto = empresa.cod_produto
+WHERE produto.cod_familia_comercial IN (37,36)
+
+START TRANSACTION;
+UPDATE cd_produto_empresa	SET vl_custo_fob=31971.85	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-1183';
+UPDATE cd_produto_empresa	SET vl_custo_fob=54352.13	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-1184';
+UPDATE cd_produto_empresa	SET vl_custo_fob=10313.47	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-1188';
+UPDATE cd_produto_empresa	SET vl_custo_fob=17532.9	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-1189';
+UPDATE cd_produto_empresa	SET vl_custo_fob=24752.69	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-0809';
+UPDATE cd_produto_empresa	SET vl_custo_fob=23424.65	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-2036';
+UPDATE cd_produto_empresa	SET vl_custo_fob=7556.34	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-2042';
+UPDATE cd_produto_empresa	SET vl_custo_fob=7500.45	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-1595';
+UPDATE cd_produto_empresa	SET vl_custo_fob=12750.77	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-1596';
+UPDATE cd_produto_empresa	SET vl_custo_fob=18001.45	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4100';
+UPDATE cd_produto_empresa	SET vl_custo_fob=7547.33	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4142';
+UPDATE cd_produto_empresa	SET vl_custo_fob=12830.47	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4143';
+UPDATE cd_produto_empresa	SET vl_custo_fob=7875.52	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4148';
+UPDATE cd_produto_empresa	SET vl_custo_fob=13388.38	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4149';
+UPDATE cd_produto_empresa	SET vl_custo_fob=7254.08	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-9131';
+UPDATE cd_produto_empresa	SET vl_custo_fob=4240.48	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4216';
+UPDATE cd_produto_empresa	SET vl_custo_fob=7208.81	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4217';
+UPDATE cd_produto_empresa	SET vl_custo_fob=4433.27	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4278';
+UPDATE cd_produto_empresa	SET vl_custo_fob=2115.39	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4076';
+UPDATE cd_produto_empresa	SET vl_custo_fob=1314.8	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-3583';
+UPDATE cd_produto_empresa	SET vl_custo_fob=1209.01	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-3589';
+UPDATE cd_produto_empresa	SET vl_custo_fob=4842.47	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4406';
+UPDATE cd_produto_empresa	SET vl_custo_fob=1186.64	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4411';
+UPDATE cd_produto_empresa	SET vl_custo_fob=2017.29	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4412';
+UPDATE cd_produto_empresa	SET vl_custo_fob=1294.6	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4417';
+UPDATE cd_produto_empresa	SET vl_custo_fob=2200.83	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4418';
+UPDATE cd_produto_empresa	SET vl_custo_fob=1429.35	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4030';
+UPDATE cd_produto_empresa	SET vl_custo_fob=788.7	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4074';
+UPDATE cd_produto_empresa	SET vl_custo_fob=1379.7	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-1971';
+UPDATE cd_produto_empresa	SET vl_custo_fob=402.1	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-1475';
+UPDATE cd_produto_empresa	SET vl_custo_fob=685.29	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4459';
+UPDATE cd_produto_empresa	SET vl_custo_fob=947.32	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4465';
+UPDATE cd_produto_empresa	SET vl_custo_fob=982.59	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4471';
+UPDATE cd_produto_empresa	SET vl_custo_fob=480.24	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-4489';
+UPDATE cd_produto_empresa	SET vl_custo_fob=479.15	WHERE cod_empresa = 1 AND cod_produto ='01-SSC-5194';
+UPDATE cd_produto_empresa	SET vl_custo_fob=66.45	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-1189';
+UPDATE cd_produto_empresa	SET vl_custo_fob=324.85	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-1210';
+UPDATE cd_produto_empresa	SET vl_custo_fob=132.89	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-1497';
+UPDATE cd_produto_empresa	SET vl_custo_fob=295.32	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-1273';
+UPDATE cd_produto_empresa	SET vl_custo_fob=1965.35	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-1300';
+UPDATE cd_produto_empresa	SET vl_custo_fob=2155.84	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-1339';
+UPDATE cd_produto_empresa	SET vl_custo_fob=324.85	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-3303';
+UPDATE cd_produto_empresa	SET vl_custo_fob=893.35	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-0662';
+UPDATE cd_produto_empresa	SET vl_custo_fob=694	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-0692';
+UPDATE cd_produto_empresa	SET vl_custo_fob=590.64	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-0707';
+UPDATE cd_produto_empresa	SET vl_custo_fob=10122.1	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-0731';
+UPDATE cd_produto_empresa	SET vl_custo_fob=590.64	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-0761';
+UPDATE cd_produto_empresa	SET vl_custo_fob=51.68	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-3170';
+UPDATE cd_produto_empresa	SET vl_custo_fob=479.15	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-2955';
+UPDATE cd_produto_empresa	SET vl_custo_fob=221.49	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-3173';
+UPDATE cd_produto_empresa	SET vl_custo_fob=317.47	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-2916';
+UPDATE cd_produto_empresa	SET vl_custo_fob=487.28	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-2922';
+UPDATE cd_produto_empresa	SET vl_custo_fob=694	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-2925';
+UPDATE cd_produto_empresa	SET vl_custo_fob=1897.43	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-2931';
+UPDATE cd_produto_empresa	SET vl_custo_fob=3625.06	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-3021';
+UPDATE cd_produto_empresa	SET vl_custo_fob=464.74	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-1773';
+UPDATE cd_produto_empresa	SET vl_custo_fob=790.06	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-1774';
+UPDATE cd_produto_empresa	SET vl_custo_fob=204.65	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-1722';
+UPDATE cd_produto_empresa	SET vl_custo_fob=72.49	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-1756';
+UPDATE cd_produto_empresa	SET vl_custo_fob=610.15	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-5215';
+UPDATE cd_produto_empresa	SET vl_custo_fob=640.83	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-5258';
+UPDATE cd_produto_empresa	SET vl_custo_fob=1899.28	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-5494';
+UPDATE cd_produto_empresa	SET vl_custo_fob=282.12	WHERE cod_empresa = 1 AND cod_produto ='02-SSC-5791';
+COMMIT;
+ROLLBACK; 
